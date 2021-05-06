@@ -9,6 +9,15 @@ Weather images available at: https://data.mendeley.com/datasets/4drtyfjtfy/1
   <img src="https://user-images.githubusercontent.com/47857277/117173628-ddb8c080-adc4-11eb-9e96-945cc2f6ebe4.png" width="900">
 </p>
 
+## Data preparation
+
+The Mendeley dataset must be split into 4 folders, one for each class, with each named after the class of images it contains. I.e. all 'cloudy' images must be in WeatherImages/cloudy/.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/47857277/117256655-da641a00-ae42-11eb-977d-f983141a96e0.png" height="200">
+</p>
+
+
 ## Dataset
 
 The Mendeley dataset contains 1125 images of classes: Cloudy, Rain, Shine and Sunrise. These make up the dataset in the proportions shown below. Augmentation is used to increase the size of the training dataset.
