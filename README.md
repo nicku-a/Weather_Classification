@@ -1,5 +1,5 @@
 # Weather Classification
-This notebook trains and tests a neural network to classify images of weather conditions into 4 classes: Cloudy, Rain, Shine, Sunrise.
+This notebook trains and tests a neural network using PyTorch to classify images of weather conditions into 4 classes: Cloudy, Rain, Shine, Sunrise.
 
 VGG16 (Simonyan et al., 2014) convolutional features are used for transfer learning, and a feed-forward network is trained to label weather images with over 98% accuracy.
 
